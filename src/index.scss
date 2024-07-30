@@ -1,0 +1,540 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  transition: all 3s ease-in-out;
+
+}
+
+body {
+  background: #000;
+  overflow-x: hidden;
+  color: #fff;
+}
+
+hr {
+  position: absolute;
+  width: 97%;
+  margin: 0px 40px 20px 40px;
+
+}
+
+nav {
+  position: relative;
+  bottom: 120px;
+  right: -200px;
+
+  padding: 41.4px 41.4px 20px 41.4px;
+
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    li {
+      display: flex;
+      list-style: none;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+  }
+
+  .cons {
+
+    bottom: -20;
+    right: 280px;
+
+    .cart {
+      position: absolute;
+      bottom: 20px;
+      left: 785px;
+
+      img {
+        width: 8%;
+
+      }
+    }
+
+  }
+
+  .magn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    top: -12px;
+    right: 0px;
+    padding: 44px 0px;
+
+    img {
+      width: 5%;
+      background: #fff;
+      padding: 5px;
+      border-radius: 50px;
+    }
+
+    button {
+      padding: 10px 20px;
+      border-radius: 50px;
+      color: #000;
+      background: #fff;
+      border: none;
+      font-size: 15px;
+      font-weight: 700;
+    }
+  }
+
+}
+
+
+
+#hero {
+  padding: 0px 40px 40px 40px;
+  height: 100vh;
+
+  .textBox {
+    border-top: #FFEC3F 3px solid;
+    margin: 10px 30px 0px 0px;
+    background: #202020;
+    background-size: contain;
+    position: absolute;
+    top: 125px;
+    padding: 10px 0px 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+
+    h1 {
+      color: #fff;
+      width: 50%;
+      font-weight: 900;
+      font-size: 45px;
+    }
+
+    .boxContainer {
+      padding: 0px 10px;
+      background: #2D2C2C;
+      display: flex;
+      align-items: center;
+      align-items: center;
+      gap: 10px;
+
+      .box {
+        height: 180px;
+        width: 140px;
+        background: #AEA235;
+        margin: 10px 0px;
+      }
+
+      .boxTwo {
+        .box {
+          height: 180px;
+          width: 140px;
+          background: #FFEC3F;
+          margin: 10px 0px;
+        }
+      }
+
+      .boxThree {
+        .box {
+          height: 180px;
+          width: 140px;
+          background: #AEA235;
+          margin: 10px 0px;
+        }
+      }
+
+      .boxFour {
+        .box {
+          height: 180px;
+          width: 80px;
+          background: #FFEC3F;
+          margin: 10px 0px;
+        }
+      }
+    }
+  }
+}
+
+#pill {
+  padding: 0px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+
+  .textBox {
+    width: 100%;
+
+    h2 {
+      color: #fff;
+      font-size: 40px;
+      letter-spacing: 3px;
+      font-weight: 800;
+      width: 70%;
+
+      span {
+        color: #FFEC3F;
+      }
+    }
+
+    p {
+      color: #fff;
+      width: 80%;
+    }
+
+    button {
+      padding: 10px 20px;
+      border-radius: 50px;
+      color: #000;
+      background: #fff;
+      border: none;
+      font-size: 15px;
+      font-weight: 700;
+      margin-top: 20px;
+    }
+  }
+
+  .rect {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+#sellers {
+  padding: 100px 0px;
+
+  h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .BestCards {
+    background: #2D2C2C;
+    padding: 10px 10px;
+
+    .textBox {
+      a {
+        color: #FFEC3F;
+      }
+    }
+  }
+
+  .cardContainer {
+    padding: 80px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    // background: #2D2C2C;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+#shirt {
+  padding: 80px 10px 20px 10px;
+
+  .imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+
+    .buy {
+      width: 100%;
+
+      .jean {
+
+        img {
+          width: 100%;
+
+        }
+      }
+
+      .over {
+        width: 100%;
+        background: linear-gradient(360deg, #000 60%, transparent);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+        position: relative;
+        top: -150px;
+
+        button {
+          padding: 10px 30px;
+          border-radius: 50px;
+          color: #000;
+          background: #fff;
+          border: none;
+          font-size: 15px;
+          font-weight: 700;
+
+        }
+      }
+
+
+    }
+
+    .buy:hover {
+
+      .over {
+        display: none;
+
+      }
+
+    }
+  }
+}
+
+#crypto {
+  margin: 0px 25px;
+  padding: 30px 0px;
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #151515;
+
+  h1 {
+    width: 30%;
+    text-align: center;
+    font-size: 40px;
+
+    span {
+      color: #FFEC3F;
+    }
+  }
+
+  h2 {
+    font-size: 40px;
+
+  }
+
+  p {
+    width: 40%;
+    text-align: center;
+    padding: 20px 0px;
+  }
+
+  button {
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #000;
+    background: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+
+  }
+}
+
+#footie {
+  margin: 120px 25px;
+  border-top: #AEA235 3px solid;
+
+  hr {
+
+    width: 100%;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+    p {
+      width: 50%;
+      font-size: 15px;
+    }
+
+    h2 {
+      width: 100%;
+      font-weight: 700;
+    }
+
+    .zero {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    .wallet {
+      width: 50%;
+
+      h2 {
+        font-size: 25px;
+      }
+
+      ul {
+        padding: 10px 0px;
+
+        li {
+          list-style: none;
+        }
+      }
+    }
+
+    .promo {
+      width: 100%;
+      margin-top: 35px;
+
+      h1 {
+        width: 100%;
+        font-size: 23px;
+        font-weight: 700;
+        margin-top: -53px;
+      }
+
+      .submit {
+        padding: 20px 0px;
+
+        .email {
+          width: 90%;
+          padding: 10px;
+          position: relative;
+          top: -2.5px;
+          border-radius: 50px;
+          background: #161616;
+          border: none;
+        }
+
+        .sub {
+          padding: 8px 20px;
+          font-weight: 700;
+          position: absolute;
+          right: 55px;
+          border-radius: 50px;
+          border: none;
+        }
+      }
+    }
+
+  }
+}
+
+.using {
+  padding: 20px 20px;
+  background: #202020;
+margin: 0px 20px;
+border-top: #FFEC3F 2px solid;
+position: relative;
+top: -70px;
+height: 100vh;
+  .xat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+h1{
+  margin-left: 130px;
+}
+    img {
+      width: 1.5%;
+      position: absolute;
+      right: 45px;
+      background: #707070;
+      padding: 5px;
+      border-radius: 50px;
+    }
+
+    .inp {
+      position: relative;
+      right: 60px;
+
+      input {
+        padding: 10px 20px;
+        width: 100%;
+        background: #161616;
+        border-radius: 50px;
+        border: none;
+      }
+    }
+  }
+
+  .texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px 0px;
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+
+    .CategoriesCard {
+      background: #161616;
+      padding: 20px 0px;
+
+      h6 {
+        margin-right: 170px;
+      }
+
+      a {
+        color: #FFEC3F;
+      }
+
+      span {
+        color: #FFEC3F;
+      }
+    }
+
+    img {
+      width: 50%;
+    }
+
+
+
+    .toy {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 120px;
+
+      .bear {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #393939;
+        gap: 20px;
+        border-radius: 50px;
+        padding: 3px 5px;
+
+        button {
+          padding: 3px 10px;
+          border-radius: 50px;
+          font-size: 15px;
+          font-weight: 600;
+          border: none;
+        }
+      }
+      .buy{
+       button{
+        padding: 5px 15px;
+        border-radius: 50px;
+        border: none;
+       } 
+      }
+    }
+  }
+}
